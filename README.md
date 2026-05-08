@@ -5,7 +5,11 @@
 ## 安装
 
 ```bash
-/plugin install https://github.com/loongJiu/loong-claude
+# 第一步：用 GitHub repo 添加 marketplace
+/plugin marketplace add loongJiu/loong-claude
+
+# 第二步：用 marketplace 名称安装插件
+/plugin install loong-claude@loong-marketplace
 ```
 
 重启 Claude Code 后生效。
@@ -16,8 +20,8 @@
 
 技能会在相关任务时自动触发，也可手动调用：
 
-| 技能 | 触发场景 |
-|---|---|
+| 技能                       | 触发场景         |
+| -------------------------- | ---------------- |
 | `/loong-claude:yapi-guide` | 指导使用yapi接口 |
 
 ### Hooks
@@ -58,6 +62,7 @@ cp ~/.claude/plugins/cache/loong-claude/*/rules/hooks-data.md ~/.claude/rules/
 
 ```markdown
 ## 代码风格
+
 @~/.claude/rules/hooks-reusable.md
 @~/.claude/rules/hooks-data.md
 ```
