@@ -89,6 +89,7 @@ git tag loong-claude--v1.1.0
 ```bash
 # 推送 commit 和 tag
 git push origin master
+git push origin loong-claude--v1.1.0
 
 # 或一次推送所有 tag
 git push origin master --tags
