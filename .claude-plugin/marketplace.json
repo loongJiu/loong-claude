@@ -1,0 +1,13 @@
+{
+  "name": "loong-marketplace",
+  "owner": {
+    "name": "loongJiu"
+  },
+  "plugins": [
+    {
+      "name": "loong-claude",
+      "source": "./",
+      "description": "Personal Claude Code config"
+    }
+  ]
+}
