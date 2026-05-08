@@ -1,0 +1,8 @@
+{
+  "name": "loong-claude",
+  "description": "Personal Claude Code config: skills, rules, hooks...",
+  "version": "1.0.0",
+  "author": { "name": "loongJiu" },
+  "repository": "https://github.com/loongJiu/loong-claude",
+  "license": "MIT"
+}
