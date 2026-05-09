@@ -1,16 +1,2 @@
 {
-  "doraemon-docs": {
-    "type": "stdio",
-    "command": "node",
-    "args": [
-      "/Users/zcy1/git-other/doraemon-mcp/dist/index.js"
-    ]
-  },
-  "sketch-design": {
-    "type": "stdio",
-    "command": "node",
-    "args": [
-      "/Users/zcy1/git-other/sketch-design-mcp/dist/index.js"
-    ]
-  }
 }
