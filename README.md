@@ -30,9 +30,6 @@
 
 ### MCP
 
-- **doraemon-docs MCP**：提供 Doraemon 文档查询能力
-- **sketch-design MCP**：提供 Sketch 设计稿识别能力
-
 ### Rules
 
 代码风格规则文件存放在 `rules/` 目录，**不会随 plugin 自动加载**（Claude Code 的 plugin 机制限制）。

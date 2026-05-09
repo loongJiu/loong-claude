@@ -1,4 +1,10 @@
-## [1.3.0]
+## [1.3.1] - 2026-05-09
+
+### 修改
+- `brainstorming` 技能：工作流开始时增加 skill 声明语句，明确标识当前使用的技能
+- README：移除已迁移至全局的 MCP 配置描述（doraemon-docs、sketch-design）
+
+## [1.3.0] - 2026-05-09
 
 ### 修改
 - 重构 `brainstorming` 和 `writing-plans` 技能文档，精简冗余描述、提升结构与清晰度
