@@ -1,3 +1,16 @@
+## [1.3.0]
+
+### 修改
+- 重构 `brainstorming` 和 `writing-plans` 技能文档，精简冗余描述、提升结构与清晰度
+  - `brainstorming`：description 改为结构化 YAML 格式，明确触发/不触发条件；正文精炼为 8 步标准工作流 + 架构规范 + dot 流程图
+  - `writing-plans`：将 7 个独立章节合并为 5 个紧凑模块（范围定义、文档规范、禁飞区、自审、交接），消除重复表述
+
+### 删除
+- 移除 `.mcp.json` 中 doraemon-docs 和 sketch-design 的本地 MCP 配置（已迁移至全局）
+
+### 文档
+- `RELEASING.md` 补充 tag 推送命令示例
+
 ## [1.2.0] - 2026-05-08
 
 ### 新增
@@ -25,6 +38,7 @@
 - 删除 hello skill
 
 ## [1.0.0] - 2026-05-08
+
 
 ### 新增
 - 初始化个人 Claude 配置仓库
