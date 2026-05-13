@@ -31,7 +31,7 @@ git log --oneline -5
 
 ### 3. 编写 commit message
 
-格式：`<type>: <简短描述>`
+格式：`<type>(<scope>): <简短描述>`
 
 type 规范：
 - `feat`: 新功能
@@ -41,6 +41,17 @@ type 规范：
 - `docs`: 文档
 - `chore`: 构建/工具/配置
 - `test`: 测试
+
+scope 规范：
+- scope 填写本次变更**实际影响的版本**，而非文件名或目录名
+- 优先从 `git branch` 中推断 scope
+
+常见 scope 示例：
+- `v1.0.0`: 版本号
+- `v1.0.0-alpha.1`: 预发布版本号
+- `v1.0.0-20260513`: 日期版本号
+
+如果项目为组件库或monorope，scope 为组件名称
 
 要求：
 - 用中文编写
