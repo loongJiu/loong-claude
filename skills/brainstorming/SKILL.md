@@ -281,7 +281,7 @@ status: draft | approved
 获得授权后，根据任务规模选择实施方式：
 
 - **快速通道**：可直接开始编写代码，无需额外计划文档。
-- **全量流程**：使用 `loong-claude:writing-plans` skill生成实施计划，获确认后开始编码。
+- **全量流程**：必须通过 `Skill` 工具调用 `loong-claude:writing-plans` skill（参数 `skill: "loong-claude:writing-plans"`），生成实施计划，获确认后开始编码。
 
 ---
 
